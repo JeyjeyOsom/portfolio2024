@@ -1,0 +1,12 @@
+.main-container {
+  display: flex;
+}
+
+.navbar-container {
+  display: flex;
+}
+
+.content-container {
+  display: flex;
+  flex: 1;
+}

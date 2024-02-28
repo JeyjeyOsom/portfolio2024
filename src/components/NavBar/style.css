@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 200px; /* Set default width */
+  padding: 0px 10px 0px 0px;
+  transition: width 0.3s linear; /* Apply transition to the width property */
+}
+
+.navbar.closed {
+  width: 10px; /* Set width for the closed state */
+}
+
+.link {
+  font-size: 32px;
+  margin: 12px 0px;
+  text-decoration: none;
+  padding: 4px 8px;
+  display: flex;
+  color: #e3fcbf;
+  font-weight: 600;
+  border-bottom-right-radius: 8px;
+  transition: color 1s ease-out, box-shadow 1s ease-out,
+    background-color 1s ease-out;
+}
+
+.link:hover {
+  color: #f7ff56;
+  box-shadow: 5px 10px #f7ff56;
+  background-color: #5e7294;
+}
+
+.link:active,
+.link.active {
+  color: #f7ff56;
+  box-shadow: 5px 10px #f7ff56;
+  background-color: #5e7294;
+}
+
+button {
+  padding-top: 24px;
+  margin-left: 150px;
+  background-color: #35425900;
+  border: none;
+  position: absolute;
+  font-size: 32px;
+  transition: margin-left 0.5s linear, font-size 0.3s linear;
+}
+button:hover {
+  font-size: 44px;
+}
+.navbar.closed button {
+  margin-left: 0px;
+}
