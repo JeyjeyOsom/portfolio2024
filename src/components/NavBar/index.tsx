@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./style.css";
 import {
-  TbSquareRoundedArrowLeftFilled,
-  TbSquareRoundedArrowRight,
+  TbSquareRoundedArrowLeft,
+  TbSquareRoundedArrowRightFilled,
 } from "react-icons/tb";
 
 const NavBar = () => {
@@ -17,9 +17,9 @@ const NavBar = () => {
     <nav className={`navbar ${isSidebarOpen ? "open" : "closed"}`}>
       <button className="icon" onClick={toggleSidebar}>
         {isSidebarOpen ? (
-          <TbSquareRoundedArrowLeftFilled />
+          <TbSquareRoundedArrowLeft />
         ) : (
-          <TbSquareRoundedArrowRight />
+          <TbSquareRoundedArrowRightFilled />
         )}
       </button>
       {isSidebarOpen && (
