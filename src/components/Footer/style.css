@@ -1,0 +1,21 @@
+.navbar-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 12px;
+  font-size: 18px;
+}
+
+.top-footer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  border-bottom: 1px solid;
+  margin-bottom: 8px;
+}
+
+.bottom-footer {
+  display: flex;
+  gap: 6px;
+}

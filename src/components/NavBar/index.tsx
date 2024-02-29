@@ -1,13 +1,10 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { useState } from "react";
 import "./style.css";
-import {
-  TbSquareRoundedArrowLeft,
-  TbSquareRoundedArrowRightFilled,
-} from "react-icons/tb";
+import { TbSquareRoundedArrowDownFilled } from "react-icons/tb";
+import { MdOutlineKeyboardArrowUp } from "react-icons/md";
 
 const NavBar = () => {
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -17,38 +14,18 @@ const NavBar = () => {
     <nav className={`navbar ${isSidebarOpen ? "open" : "closed"}`}>
       <button className="icon" onClick={toggleSidebar}>
         {isSidebarOpen ? (
-          <TbSquareRoundedArrowLeft />
+          <MdOutlineKeyboardArrowUp />
         ) : (
-          <TbSquareRoundedArrowRightFilled />
+          <TbSquareRoundedArrowDownFilled />
         )}
       </button>
       {isSidebarOpen && (
         <>
-          <div>
-            <NavLink className="link" to="/">
-              Home
-            </NavLink>
-          </div>
-          <div>
-            <NavLink className="link" to="/about">
-              About
-            </NavLink>
-          </div>
-          <div>
-            <NavLink className="link" to="/experience">
-              Experience
-            </NavLink>
-          </div>
-          <div>
-            <NavLink className="link" to="/history">
-              History
-            </NavLink>
-          </div>
-          <div>
-            <NavLink className="link" to="/contact">
-              Contact
-            </NavLink>
-          </div>
+          <div className="link">Home</div>
+          <div className="link">About</div>
+          <div className="link">Experience</div>
+          <div className="link">History</div>
+          <div className="link">Contact</div>
         </>
       )}
     </nav>
