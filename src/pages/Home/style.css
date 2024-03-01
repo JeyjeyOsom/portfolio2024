@@ -22,13 +22,14 @@
 img {
   height: 425px;
   width: 425px;
+  border-radius: 100px;
 }
 
 .bg-effect {
   background-color: rgb(71, 71, 68);
   border-radius: 132px;
-  height: 500px;
-  width: 450px;
+  height: 430px;
+  width: 425px;
   display: flex;
   align-items: center;
 }
