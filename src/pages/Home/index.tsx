@@ -9,14 +9,12 @@ const Home = () => {
           <h2>My Name is Juan Dejon</h2>
           <h2>Web Developer</h2>
           <h2>
-            Im a Bachelors Degree holder of Information Technology,<br></br>{" "}
-            with with over 2 years of developement experience!
+            Im an Information Technology degree holder, with with over 2 years
+            of developement experience!
           </h2>
         </div>
         <div className="right-div">
-          <div className="bg-effect">
-            <img draggable="false" src="./img/ako.png" />
-          </div>
+          <div className="bg-effect"></div>
         </div>
       </div>
     </>
