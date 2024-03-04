@@ -1,0 +1,12 @@
+.about-container {
+  gap: 12px;
+  background-color: #00a9ff;
+  height: 100vh;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  margin: auto;
+}

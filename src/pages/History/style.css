@@ -1,0 +1,15 @@
+.history-container {
+  gap: 12px;
+  background-color: #a0e9ff;
+  height: 100vh;
+}
+.history-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  margin: auto;
+}
+
+/* 
+#B4D4FF #86B6F6    */

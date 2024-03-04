@@ -1,0 +1,15 @@
+.contact-container {
+  gap: 12px;
+  background-color: #cdf5fd;
+  height: 100vh;
+}
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  margin: auto;
+}
+
+/* 
+#B4D4FF #86B6F6 #A0E9FF #CDF5FD  */

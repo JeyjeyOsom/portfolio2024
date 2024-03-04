@@ -2,8 +2,10 @@ import React from "react";
 import "./style.css";
 const History = () => {
   return (
-    <div>
-      <h1>History</h1>
+    <div className="history-container">
+      <div className="history-content">
+        <h1>History</h1>
+      </div>
     </div>
   );
 };

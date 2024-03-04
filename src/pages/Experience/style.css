@@ -1,0 +1,15 @@
+.experience-container {
+  gap: 12px;
+  background-color: #89cff3;
+  height: 100vh;
+}
+.experience-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  margin: auto;
+}
+
+/* 
+#B4D4FF #86B6F6 #A0E9FF   */

@@ -1,10 +1,15 @@
 .home-container {
-  border-radius: 12px;
-  align-items: center;
-  margin: 24px;
-  display: flex;
   gap: 12px;
-  height: 90%;
+  background-color: #eef5ff;
+  height: 100vh;
+}
+.l-r-container {
+  padding-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1366px;
+  margin: auto;
 }
 .left-div {
   display: flex;
@@ -31,19 +36,6 @@
   -o-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
-}
-
-/* . {
-  height: 500px;
-  width: 500px;
-  background-color: rgb(168, 110, 34);
-  border-radius: 31% 69% 44% 56% / 79% 85% 15% 21%;
-} */
-:root {
-  --background: #005;
-  --primary: #88d5bf;
-  --secondary: #5d6bf8;
-  --third: #e27fcb;
 }
 
 .bg-effect {

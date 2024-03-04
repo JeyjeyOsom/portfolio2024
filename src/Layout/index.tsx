@@ -9,24 +9,14 @@ import History from "../pages/History";
 const Layout = () => {
   return (
     <>
-      <div className="main-container">
+      <section className="main-container">
         <NavBar />
-        <section>
-          <Home />
-        </section>
-        <section>
-          <About />
-        </section>
-        <section>
-          <Contact />
-        </section>
-        <section>
-          <Experience />
-        </section>
-        <section>
-          <History />
-        </section>
-      </div>
+        <Home />
+        <About />
+        <History />
+        <Experience />
+        <Contact />
+      </section>
     </>
   );
 };

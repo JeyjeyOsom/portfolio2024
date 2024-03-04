@@ -2,8 +2,10 @@ import React from "react";
 import "./style.css";
 const Experience = () => {
   return (
-    <div>
-      <h1>Experience</h1>
+    <div className="experience-container">
+      <div className="experience-content">
+        <h1>Experience</h1>
+      </div>
     </div>
   );
 };
